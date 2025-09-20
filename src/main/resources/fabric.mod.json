@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "musicmod",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Music Mod",
+	"description": "Plays all of your favoriate songs from all minecraft games!",
 	"authors": [
 		"Me!"
 	],
@@ -16,16 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.example.MusicMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+          "com.example.MusicModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+      "musicMod.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "musicMod.client.mixins.json",
 			"environment": "client"
 		}
 	],
