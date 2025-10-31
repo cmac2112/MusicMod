@@ -1,7 +1,7 @@
 # Music Mod
 
 ## Description
-a mod that will change the music depending on what the player is doing at the moment. Will allow for custom .ogg files to be uploaded and attached to a given action by a user to play.
+a mod that will change the music depending on what the player is doing at the moment. Will allow for custom .ogg files to be uploaded and attached to a given action by a user to play. Might steal royaltly free music or make my own to test because its slightly illegal to redistribute music that i dont own :)
 
 ## Actions
 - Fishing:
